@@ -36,7 +36,17 @@ section .container .user .imgBx{
     transition: 0.5s;
 }
 section .container .user .imgBx2{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    z-index: 1;
     display: none;
+}
+section .container .user .imgBx2 img{
+    width: 150px;
 }
 
 section .container .user .imgBx img{
@@ -80,10 +90,11 @@ section .container .user .formBx input{
     margin: 8px 0;
     letter-spacing: 1px;
     font-weight: 300;
+    border-radius: 5px;
 }
-section .container .user .formBx .submit{
+section .container .user .formBx input[type="submit"]{
     max-width: 100px;
-    background: #92ff67;
+    background: #677eff;
     color: #fff;
     cursor: pointer;
     font-size: 14px;
@@ -113,20 +124,7 @@ section .container .user .formBx .contactUs a{
         display: none;
     }
     section .container .user .imgBx2{
-        position: absolute;
-        display: flex;
-        width: 150px;
-        height: auto;
-        top: 20px;
-        left: 20px;
-        transition: 0.5s;
-        z-index: 1;
-        border: 1px solid grey;
-    }
-    section .container .user .imgBx2 img{
-        width: 150px;
-        height: auto;
-        border: 1px solid black;
+        display: block;
     }
     section .container .user .formBx{
         width: 100%;
