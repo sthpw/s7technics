@@ -35,18 +35,7 @@ section .container .user .imgBx{
     height: 100%;
     transition: 0.5s;
 }
-section .container .user .imgBx2{
-    position: absolute;
-    width: 100%;
-    top: 20px;
-    left: 20px;
-    transition: 0.5s;
-    z-index: 1;
-    display: none;
-}
-section .container .user .imgBx2 img{
-    width: 150px;
-}
+
 section .container .user .imgBx img{
     position: absolute;
     top: 0;
@@ -121,7 +110,17 @@ section .container .user .formBx .contactUs a{
         display: none;
     }
     section .container .user .imgBx2{
-        display: flex;
+        position: absolute;
+        /* width: 100%; */
+        top: 20px;
+        left: 20px;
+        transition: 0.5s;
+        z-index: 1;
+        border: 1px solid grey;
+    }
+    section .container .user .imgBx2 img{
+        width: 150px;
+        border: 1px solid black;
     }
     section .container .user .formBx{
         width: 100%;
