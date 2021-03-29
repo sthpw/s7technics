@@ -35,6 +35,9 @@ section .container .user .imgBx{
     height: 100%;
     transition: 0.5s;
 }
+section .container .user .imgBx2{
+    display: none;
+}
 
 section .container .user .imgBx img{
     position: absolute;
@@ -111,6 +114,7 @@ section .container .user .formBx .contactUs a{
     }
     section .container .user .imgBx2{
         position: absolute;
+        display: flex;
         /* width: 100%; */
         top: 20px;
         left: 20px;
