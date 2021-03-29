@@ -37,6 +37,7 @@ section .container .user .imgBx{
 }
 section .container .user .imgBx2{
     position: absolute;
+    width: 100%;
     top: 20px;
     left: 20px;
     transition: 0.5s;
