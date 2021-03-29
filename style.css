@@ -81,9 +81,9 @@ section .container .user .formBx input{
     letter-spacing: 1px;
     font-weight: 300;
 }
-section .container .user .formBx input[type="submit"]{
+section .container .user .formBx .submit{
     max-width: 100px;
-    background: #677eff;
+    background: #92ff67;
     color: #fff;
     cursor: pointer;
     font-size: 14px;
